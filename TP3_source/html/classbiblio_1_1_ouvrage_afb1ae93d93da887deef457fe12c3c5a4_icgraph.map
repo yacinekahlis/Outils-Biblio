@@ -1,0 +1,4 @@
+<map id="biblio::Ouvrage::reqEditeur" name="biblio::Ouvrage::reqEditeur">
+<area shape="rect" id="node1" title="Acceseur pour l&#39;editeur." alt="" coords="269,13,465,39"/>
+<area shape="rect" id="node2" href="$classbiblio_1_1_ouvrage.html#a24290cfa18f1e3060365b0a2f5980792" title="Retourne une chaine de caractere signifiant les valeurs de l&#39;instance." alt="" coords="5,5,221,47"/>
+</map>

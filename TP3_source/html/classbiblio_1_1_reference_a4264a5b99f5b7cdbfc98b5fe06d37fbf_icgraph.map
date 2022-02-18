@@ -1,0 +1,6 @@
+<map id="biblio::Reference::reqTitre" name="biblio::Reference::reqTitre">
+<area shape="rect" id="node1" title="Acceseur pour le titre." alt="" coords="269,71,409,112"/>
+<area shape="rect" id="node2" href="$classbiblio_1_1_ouvrage.html#a24290cfa18f1e3060365b0a2f5980792" title="Retourne une chaine de caractere signifiant les valeurs de l&#39;instance." alt="" coords="5,5,221,47"/>
+<area shape="rect" id="node3" href="$classbiblio_1_1_reference.html#a470fbe3473941db0aeedf000f0b1088d" title="Retourne une chaine de caractere signifiant les valeurs de l&#39;instance." alt="" coords="32,71,195,112"/>
+<area shape="rect" id="node4" href="$classbiblio_1_1_journal.html#abf353c6b94df4eca88e8173205451ea0" title="Retourne une chaine de caractere signifiant les valeurs de l&#39;instance." alt="" coords="10,136,217,177"/>
+</map>

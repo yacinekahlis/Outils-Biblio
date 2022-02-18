@@ -1,0 +1,10 @@
+<map id="Bibliographie.h" name="Bibliographie.h">
+<area shape="rect" id="node1" title="Interface de la classe Bibliographie." alt="" coords="199,5,319,32"/>
+<area shape="rect" id="node2" href="$_contrat_exception_8h.html" title="Fichier contenant la déclaration de la classe ContratException et de ses héritiers." alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node5" href="$_reference_8h.html" title="Interface de la classe Reference." alt="" coords="309,155,409,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="227,80,290,107"/>
+<area shape="rect" id="node7" href="$_ouvrage_8h.html" title="Interface de la classe Ouvrage." alt="" coords="314,80,403,107"/>
+<area shape="rect" id="node8" href="$_journal_8h.html" title="Interface de la classe Journal." alt="" coords="427,80,506,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="329,229,388,256"/>
+<area shape="rect" id="node4" title=" " alt="" coords="117,155,203,181"/>
+</map>

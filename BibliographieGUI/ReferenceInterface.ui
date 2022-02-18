@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReferenceInterface</class>
+ <widget class="QMainWindow" name="ReferenceInterface">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>826</width>
+    <height>692</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ReferenceInterface</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="Affichage">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>801</width>
+      <height>631</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>826</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <widget class="QMenu" name="menuAjouter_une_r_f_rence">
+     <property name="title">
+      <string>Ajouter une référence</string>
+     </property>
+     <addaction name="actionOuvrage"/>
+     <addaction name="actionJournal"/>
+    </widget>
+    <addaction name="separator"/>
+    <addaction name="menuAjouter_une_r_f_rence"/>
+    <addaction name="actionSupprimer_une_r_f_rence"/>
+    <addaction name="actionQuitter"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSupprimer_une_r_f_rence">
+   <property name="text">
+    <string>Supprimer une référence</string>
+   </property>
+  </action>
+  <action name="actionQuitter">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </action>
+  <action name="actionOuvrage">
+   <property name="text">
+    <string>Ouvrage</string>
+   </property>
+  </action>
+  <action name="actionJournal">
+   <property name="text">
+    <string>Journal</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actionQuitter</sender>
+   <signal>triggered()</signal>
+   <receiver>ReferenceInterface</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>408</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionOuvrage</sender>
+   <signal>triggered()</signal>
+   <receiver>ReferenceInterface</receiver>
+   <slot>dialogOuvrage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>408</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionJournal</sender>
+   <signal>triggered()</signal>
+   <receiver>ReferenceInterface</receiver>
+   <slot>dialogJournal()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>408</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionSupprimer_une_r_f_rence</sender>
+   <signal>triggered()</signal>
+   <receiver>ReferenceInterface</receiver>
+   <slot>dialogSuppression()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>408</x>
+     <y>397</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>dialogOuvrage()</slot>
+  <slot>dialogJournal()</slot>
+  <slot>dialogSuppression()</slot>
+ </slots>
+</ui>

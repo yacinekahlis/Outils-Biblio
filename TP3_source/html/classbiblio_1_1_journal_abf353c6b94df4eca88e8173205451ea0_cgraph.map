@@ -1,0 +1,10 @@
+<map id="biblio::Journal::reqReferenceFormate" name="biblio::Journal::reqReferenceFormate">
+<area shape="rect" id="node1" title="Retourne une chaine de caractere signifiant les valeurs de l&#39;instance." alt="" coords="5,180,212,221"/>
+<area shape="rect" id="node2" href="$classbiblio_1_1_reference.html#adcf4b47dfbd090e0da711a3167aaf7ab" title="Acceseur pour l&#39;année." alt="" coords="286,5,426,47"/>
+<area shape="rect" id="node3" href="$classbiblio_1_1_reference.html#af2211c7949052fdc8f0c47e9730ac6fc" title="Acceseur pour l&#39;identifiant." alt="" coords="286,71,426,112"/>
+<area shape="rect" id="node4" href="$classbiblio_1_1_journal.html#a536ccee92b3d0bfecd91f7187984ea25" title="Acceseur pour le nom." alt="" coords="271,137,441,163"/>
+<area shape="rect" id="node5" href="$classbiblio_1_1_journal.html#a28a30747554b750a73a2e244d7df362c" title="Acceseur pour le numero." alt="" coords="260,187,452,214"/>
+<area shape="rect" id="node6" href="$classbiblio_1_1_journal.html#a4851c5abea5315d7c666b7ce11af8794" title="Acceseur pour la page." alt="" coords="271,238,441,265"/>
+<area shape="rect" id="node7" href="$classbiblio_1_1_reference.html#a4264a5b99f5b7cdbfc98b5fe06d37fbf" title="Acceseur pour le titre." alt="" coords="286,289,426,331"/>
+<area shape="rect" id="node8" href="$classbiblio_1_1_journal.html#a531b7b5c9b2a751c5cc13708bd162686" title="Acceseur pour le volume." alt="" coords="261,355,451,382"/>
+</map>

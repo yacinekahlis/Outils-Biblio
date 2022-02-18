@@ -1,0 +1,5 @@
+<map id="biblio::Reference::reqAnnee" name="biblio::Reference::reqAnnee">
+<area shape="rect" id="node1" title="Acceseur pour l&#39;année." alt="" coords="269,39,409,80"/>
+<area shape="rect" id="node2" href="$classbiblio_1_1_ouvrage.html#a24290cfa18f1e3060365b0a2f5980792" title="Retourne une chaine de caractere signifiant les valeurs de l&#39;instance." alt="" coords="5,5,221,47"/>
+<area shape="rect" id="node3" href="$classbiblio_1_1_journal.html#abf353c6b94df4eca88e8173205451ea0" title="Retourne une chaine de caractere signifiant les valeurs de l&#39;instance." alt="" coords="10,71,217,112"/>
+</map>

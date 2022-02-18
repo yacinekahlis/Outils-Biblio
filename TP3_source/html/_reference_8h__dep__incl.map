@@ -1,0 +1,10 @@
+<map id="Reference.h" name="Reference.h">
+<area shape="rect" id="node1" title="Interface de la classe Reference." alt="" coords="209,5,309,32"/>
+<area shape="rect" id="node2" href="$_bibliographie_8h.html" title="Interface de la classe Bibliographie." alt="" coords="125,155,245,181"/>
+<area shape="rect" id="node4" href="$_ouvrage_8h.html" title="Interface de la classe Ouvrage." alt="" coords="215,80,304,107"/>
+<area shape="rect" id="node5" href="$_ouvrage_8cpp.html" title="Implantation de la classe Ouvrage." alt="" coords="283,155,387,181"/>
+<area shape="rect" id="node6" href="$_journal_8h.html" title="Interface de la classe Journal." alt="" coords="60,80,139,107"/>
+<area shape="rect" id="node8" href="$_reference_8cpp.html" title="Implantation de la classe Reference." alt="" coords="379,80,494,107"/>
+<area shape="rect" id="node3" href="$_bibliographie_8cpp.html" title="Implantation de la classe Bibliographie." alt="" coords="117,229,252,256"/>
+<area shape="rect" id="node7" href="$_journal_8cpp.html" title="Implantation de la classe Journal." alt="" coords="5,155,100,181"/>
+</map>

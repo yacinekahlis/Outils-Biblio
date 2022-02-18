@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classbiblio_1_1_reference.html" title="Cette classe permet de construire un objet réference." alt="" coords="5,56,137,83"/>
+<area shape="rect" id="node2" href="$classbiblio_1_1_journal.html" title=" " alt="" coords="199,5,310,32"/>
+<area shape="rect" id="node3" href="$classbiblio_1_1_ouvrage.html" title="Cette classe permet de gérer des ouvrages. Elle hérite de Reference." alt="" coords="194,56,315,83"/>
+<area shape="rect" id="node4" href="$class_reference_derivee.html" title=" " alt="" coords="185,107,324,133"/>
+</map>

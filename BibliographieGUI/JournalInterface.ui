@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>JournalInterface</class>
+ <widget class="QDialog" name="JournalInterface">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>822</width>
+    <height>429</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>JournalInterface</string>
+  </property>
+  <widget class="QPushButton" name="Ok">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>390</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ok</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>60</y>
+     <width>661</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="7" column="1">
+     <widget class="QSpinBox" name="Page">
+      <property name="maximum">
+       <number>4000</number>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Auteur(s) :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Volume :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Nom du Journal :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Année d'édition : </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="Titre"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Numéro : </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Titre :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="Nom"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>ISSN :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="Auteurs"/>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="Issn"/>
+    </item>
+    <item row="6" column="1">
+     <widget class="QSpinBox" name="Volume">
+      <property name="maximum">
+       <number>4000</number>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Page : </string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QSpinBox" name="Annee">
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>2021</number>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QSpinBox" name="Numero">
+      <property name="maximum">
+       <number>4000</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>Auteurs</tabstop>
+  <tabstop>Titre</tabstop>
+  <tabstop>Nom</tabstop>
+  <tabstop>Annee</tabstop>
+  <tabstop>Issn</tabstop>
+  <tabstop>Numero</tabstop>
+  <tabstop>Volume</tabstop>
+  <tabstop>Page</tabstop>
+  <tabstop>Ok</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Ok</sender>
+   <signal>clicked()</signal>
+   <receiver>JournalInterface</receiver>
+   <slot>valideEnregistrement()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>769</x>
+     <y>401</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>410</x>
+     <y>214</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>valideEnregistrement()</slot>
+ </slots>
+</ui>

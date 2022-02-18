@@ -1,0 +1,8 @@
+<map id="biblio::Ouvrage::reqReferenceFormate" name="biblio::Ouvrage::reqReferenceFormate">
+<area shape="rect" id="node1" title="Retourne une chaine de caractere signifiant les valeurs de l&#39;instance." alt="" coords="5,123,221,164"/>
+<area shape="rect" id="node2" href="$classbiblio_1_1_reference.html#adcf4b47dfbd090e0da711a3167aaf7ab" title="Acceseur pour l&#39;année." alt="" coords="297,5,437,47"/>
+<area shape="rect" id="node3" href="$classbiblio_1_1_ouvrage.html#afb1ae93d93da887deef457fe12c3c5a4" title="Acceseur pour l&#39;editeur." alt="" coords="269,71,465,98"/>
+<area shape="rect" id="node4" href="$classbiblio_1_1_reference.html#af2211c7949052fdc8f0c47e9730ac6fc" title="Acceseur pour l&#39;identifiant." alt="" coords="297,123,437,164"/>
+<area shape="rect" id="node5" href="$classbiblio_1_1_reference.html#a4264a5b99f5b7cdbfc98b5fe06d37fbf" title="Acceseur pour le titre." alt="" coords="297,188,437,229"/>
+<area shape="rect" id="node6" href="$classbiblio_1_1_ouvrage.html#a382744b96ea912a5f37f762e6b25531b" title="Acceseur pour la ville." alt="" coords="278,254,457,281"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="biblio::Ouvrage" name="biblio::Ouvrage">
+<area shape="rect" id="node1" title="Cette classe permet de gérer des ouvrages. Elle hérite de Reference." alt="" coords="11,80,132,107"/>
+<area shape="rect" id="node2" href="$classbiblio_1_1_reference.html" title="Cette classe permet de construire un objet réference." alt="" coords="5,5,137,32"/>
+</map>

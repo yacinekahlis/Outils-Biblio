@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SuppressionInterface</class>
+ <widget class="QDialog" name="SuppressionInterface">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>729</width>
+    <height>175</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SuppressionInterface</string>
+  </property>
+  <widget class="QPushButton" name="Ok">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>130</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ok</string>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>661</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="text">
+     <string>Identifiant de la référence à supprimer :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Identifiant"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Ok</sender>
+   <signal>clicked()</signal>
+   <receiver>SuppressionInterface</receiver>
+   <slot>valideEnregistrement()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>669</x>
+     <y>141</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>364</x>
+     <y>87</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>valideEnregistrement()</slot>
+ </slots>
+</ui>

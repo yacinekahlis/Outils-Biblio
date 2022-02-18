@@ -1,0 +1,6 @@
+<map id="unOuvrage" name="unOuvrage">
+<area shape="rect" id="node1" title="Creation d’une fixture a utiliser pour les methodes public de la classe de test." alt="" coords="31,171,124,197"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,81,107,108"/>
+<area shape="rect" id="node3" href="$classbiblio_1_1_ouvrage.html" title="Cette classe permet de gérer des ouvrages. Elle hérite de Reference." alt="" coords="131,81,253,108"/>
+<area shape="rect" id="node4" href="$classbiblio_1_1_reference.html" title="Cette classe permet de construire un objet réference." alt="" coords="126,5,258,32"/>
+</map>

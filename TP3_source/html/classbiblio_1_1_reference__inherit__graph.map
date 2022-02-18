@@ -1,0 +1,6 @@
+<map id="biblio::Reference" name="biblio::Reference">
+<area shape="rect" id="node1" title="Cette classe permet de construire un objet réference." alt="" coords="135,5,267,32"/>
+<area shape="rect" id="node2" href="$classbiblio_1_1_journal.html" title=" " alt="" coords="5,80,116,107"/>
+<area shape="rect" id="node3" href="$classbiblio_1_1_ouvrage.html" title="Cette classe permet de gérer des ouvrages. Elle hérite de Reference." alt="" coords="140,80,261,107"/>
+<area shape="rect" id="node4" href="$class_reference_derivee.html" title=" " alt="" coords="286,80,425,107"/>
+</map>
